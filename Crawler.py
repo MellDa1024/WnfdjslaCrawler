@@ -18,7 +18,7 @@ def filtering(_string,filterlist):
         if _string.find(i) != -1:
             return False
     return True
-for page in range(1,17):#20210505 기준으로 17페이지인데 더 추가으면 바꾸세용
+for page in range(1,17):#20210505 기준으로 17페이지인데 더 추가됬으면 바꾸세용
     print("Page {0}".format(page))
     driver.get("https://dccon.dcinside.com/hot/{0}/title/%EC%AD%90%EC%96%B4".format(str(page)))
     driver.implicitly_wait(5)
