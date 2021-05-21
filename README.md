@@ -6,7 +6,7 @@ Downloading the DCCON which was made by [쭐어](https://blog.naver.com/fkdzksla
 ## TMI
 Made for personal use.
 
-#### About 쭐어-style DCCON(Not drawn by 쭐어)
+#### About 쭐어-style DCCON(which hadn't drawn by 쭐어)
 This program tries to filter DCCON through the keywords in the description of the DCCON.
 
 Sadly, it doesn't work if there isn't any keyword that can guess "it's a '쭐어-style DCCON'" on description.
