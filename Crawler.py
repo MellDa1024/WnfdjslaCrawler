@@ -6,7 +6,7 @@ import urllib.request
 import sys
 import time
 import os
-path = "C:/Selenium/chromedriver.exe"
+path = "C:/Selenium/chromedriver.exe"#chromedriver의 위치 바꾸세용
 options = webdriver.ChromeOptions()
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36") 
 driver = webdriver.Chrome(path, chrome_options=options)
